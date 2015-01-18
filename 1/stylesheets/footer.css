@@ -68,3 +68,16 @@ footer li {
 	background: #0077FF;
 }
 
+.footer-divide {
+width: 20px;
+height: 20px;
+margin-bottom: 5px;
+border-top: 2px solid #EEEEEE;
+border-right: 2px solid #AAAAAA;
+transform: rotate(45deg);
+}
+
+
+
+
+
