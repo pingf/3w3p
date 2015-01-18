@@ -2,7 +2,7 @@ body {
 	margin: 0;
 }
 a img {
-  border: none;
+	border: none;
 }
 header {
 	position: fixed;
@@ -10,96 +10,104 @@ header {
 	z-index: 3;
 	width: 100%;
 	opacity: 0.95;
-
 	background: none repeat scroll 0% 0% #000000;
 }
 
-.head-tool-bar {
+.header-tool-bar {
 	height: 20px;
-	margin-left: 20%;
-	margin-right: 20%;
+	padding-left: 20%;
+	padding-right: 20%;
+	background-color: #000000;
 }
 
-.head-nav-bar {
-	margin-top: 2%;
+.header-nav-bar {
+	margin-top: 32px;
 	background-color: #4D4D4D;
 }
 
-.head-tool-bar .head-left {
+.header-tool-bar .header-left {
 	float: left;
-	margin-top: 10px;	
+	margin-top: 10px;
 }
 
-.head-icon {
+.header-icon {
 	font-weight: 500;
-	font-size: 20px;	
+	font-size: 20px;
 	margin: 0.8% 0;
-	color: #ffffff;		
+	color: #ffffff;
 }
-.head-icon img {
+.header-icon img {
 	vertical-align: middle;
 	height: 30px;
-	margin: 0 10px;	
+	margin: 0 10px;
 }
-.head-search {
-	margin: 0% 5px;
-		
+
+.header-divide {
+	margin-bottom: 5px;
+	margin: 0 5px;
+	margin-right: 10px;
+	border-right: 1px solid #555555;
 }
-.head-search .head-search-form{
+
+.header-search .header-search-form {
 	display: inline;
 	padding: 3px 5px;
-	background-color: #FFFFFF;	
+	background-color: #FFFFFF;
 	border-radius: 5px;
 	width: 150px;
 }
 
-.head-search fa-search {
+.header-search fa-search {
 	right: 10px;
 	position: relative;
 	z-index: 5;
 }
 
-.head-tool-bar .head-right{
-	margin-top: 16px;	
-	float: right;	
+.header-tool-bar .header-right {
+	margin-top: 16px;
+	float: right;
 }
-.head-button-1 {
-	margin-right : 5px;
+.header-button-1 {
+	margin-right: 5px;
 	padding: 5px 15px 5px 15px;
 	border-color: #C46814;
 	background-color: #c46814;
-	border-radius:5px;
+	border-radius: 5px;
 }
 
-.head-button-2 {
-	margin-right : 5px;
+.header-button-2 {
+	margin-right: 5px;
 	padding: 5px 10px 5px 10px;
 	border-color: #C46814;
 	background-color: #c46814;
-	border-radius:5px;
+	border-radius: 5px;
 }
 
-
-.head-button-3 {
-	margin-right : 5px;
+.header-button-3 {
+	margin-right: 5px;
 	padding: 5px 10px 5px 10px;
 	border-color: #C46814;
 	background-color: #c46814;
-	border-radius:5px;
+	border-radius: 5px;
 }
 
-.head-nav-bar ul{
+.header-nav-bar ul {
 	clear: both;
-	margin:0 20%;
+	text-align: center;
+	width: 60%;
+	margin-top: 5px;
+	margin-bottom: 0;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 
-.head-nav-bar li {
+.header-nav-bar li {
 	padding-left: 0;
 	display: inline;
 	margin-right: 50px;
 }
 
-.head-nav-bar li a {
+.header-nav-bar li a {
 	font-size: 14px;
 	font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 	color: #D7D7D7;

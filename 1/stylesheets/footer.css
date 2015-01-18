@@ -58,7 +58,7 @@ footer li {
 	background-color: #FFFFFF;
 	font-size: 16px;
 	color: #0077FF;
-	border-radius:5px;
+	border-radius: 5px;
 }
 
 .footer-button img {
@@ -69,15 +69,11 @@ footer li {
 }
 
 .footer-divide {
-width: 20px;
-height: 20px;
-margin-bottom: 5px;
-border-top: 2px solid #EEEEEE;
-border-right: 2px solid #AAAAAA;
-transform: rotate(45deg);
+	width: 20px;
+	height: 20px;
+	margin-bottom: 5px;
+	border-top: 2px solid #EEEEEE;
+	border-right: 2px solid #AAAAAA;
+	transform: rotate(45deg);
 }
-
-
-
-
 
