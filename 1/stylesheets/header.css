@@ -25,13 +25,16 @@ header {
 	background-color: #4D4D4D;
 }
 
+.head-tool-bar .head-left {
+	float: left;
+	margin-top: 10px;	
+}
+
 .head-icon {
 	font-weight: 500;
-	float: left;
 	font-size: 20px;	
 	margin: 0.8% 0;
-	color: #ffffff;
-		
+	color: #ffffff;		
 }
 .head-icon img {
 	vertical-align: middle;
@@ -39,13 +42,15 @@ header {
 	margin: 0 10px;	
 }
 .head-search {
-	margin: 1% 5px;	
-	float: left;
+	margin: 0% 5px;
+		
 }
 .head-search .head-search-form{
-	padding: 1px 5px;
+	display: inline;
+	padding: 3px 5px;
 	background-color: #FFFFFF;	
 	border-radius: 5px;
+	width: 150px;
 }
 
 .head-search fa-search {
@@ -54,10 +59,11 @@ header {
 	z-index: 5;
 }
 
-
-.head-button-1 {
+.head-tool-bar .head-right{
+	margin-top: 16px;	
 	float: right;	
-	margin-top : 5px;
+}
+.head-button-1 {
 	margin-right : 5px;
 	padding: 5px 15px 5px 15px;
 	border-color: #C46814;
@@ -66,8 +72,6 @@ header {
 }
 
 .head-button-2 {
-	float: right;
-	margin-top : 5px;
 	margin-right : 5px;
 	padding: 5px 10px 5px 10px;
 	border-color: #C46814;
@@ -77,8 +81,6 @@ header {
 
 
 .head-button-3 {
-	float: right;
-	margin-top : 5px;
 	margin-right : 5px;
 	padding: 5px 10px 5px 10px;
 	border-color: #C46814;
