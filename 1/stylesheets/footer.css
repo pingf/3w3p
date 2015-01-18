@@ -58,6 +58,7 @@ footer li {
 	background-color: #FFFFFF;
 	font-size: 16px;
 	color: #0077FF;
+	border-radius:5px;
 }
 
 .footer-button img {

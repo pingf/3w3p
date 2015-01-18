@@ -50,6 +50,7 @@ header {
 	padding: 5px 15px 5px 15px;
 	border-color: #C46814;
 	background-color: #c46814;
+	border-radius:5px;
 }
 
 .head-button-2 {
@@ -59,6 +60,7 @@ header {
 	padding: 5px 10px 5px 10px;
 	border-color: #C46814;
 	background-color: #c46814;
+	border-radius:5px;
 }
 
 
@@ -69,6 +71,7 @@ header {
 	padding: 5px 10px 5px 10px;
 	border-color: #C46814;
 	background-color: #c46814;
+	border-radius:5px;
 }
 
 .head-nav-bar ul{
