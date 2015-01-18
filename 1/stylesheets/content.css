@@ -44,20 +44,37 @@
 
 .content-pic-left {
 	top: 47%;
-	left: 28%;
+	right: 62%;
 	position: absolute;
 	z-index: 2;
+}
+
+.content-pic-left img{
+	position: relative;
+	left: -50%;
 }
 .content-pic-middle {
 	top: 9%;
-	left: 31%;
+	left: 50%;
 	position: absolute;
 	z-index: 0;
 }
+
+.content-pic-middle img{
+	position: relative;
+	left: -50%;
+}
+
 .content-pic-right {
 	top: 51%;
-	left: 63%;
+	left: 70%;
 	position: absolute;
 	z-index: 2;
+}
+
+
+.content-pic-right img{
+	position: relative;
+	left: -50%;
 }
 
