@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
 		<title>My Design</title>
 		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 		<link href="stylesheets/base.css" type="text/css" rel="stylesheet" >
 		<link href="stylesheets/header.css" type="text/css" rel="stylesheet" >
-		<link href="stylesheets/left.css" type="text/css" rel="stylesheet" >
-		<link href="stylesheets/center.css" type="text/css" rel="stylesheet" >
-		<link href="stylesheets/right.css" type="text/css" rel="stylesheet" >
+		<link href="stylesheets/content.css" type="text/css" rel="stylesheet" >
 	</head>
 	<body>
 		<header class='clearfix'>
@@ -16,7 +15,7 @@
 					<a href="hello"><i class="fa fa-leaf"></i></a>
 				</div>
 		
-				<ul class='button-list floatleft'>
+				<ul class='button-list floatleft clearfix'>
 					<li class='icon-left-1 floatleft'><a href="hello"><i class="fa fa-bell"></i></a></li>
 					<li class='icon-left-2 floatleft'><a href="hello"><i class="fa fa-envelope-o"></i></a></li>
 					<li class='icon-left-3 floatleft'><a href="hello"><i class="fa fa-align-justify"></i></a></li>
@@ -33,21 +32,46 @@
 				<div class='icon-center'><a href="hello"><i class="fa fa-twitter fa-2x"></i></a></div>
 			</div>
 		</header>
-		<div class="content">
-			<div class="left">
-				<div class='part-1'></div>
-				<div class='part-2'></div>
-				<div class='part-3'></div>
+		<div class="content clearfix">
+			<div class="left floatleft">
+				<div class='profile'>
+					<div class="avatar"><img src="images/k00.jpg" alt="" /></div>
+					<div class='name'>Keroro</div>
+					<div class='mood'>蓝星实在是太美好了，所以一定要征服过来变成自己的。</div>
+					<div class="link"><a href="http://www.keroro.com/"><i class="fa fa-link"></i>  www.keroro.com</a></div>
+					<div class="follow"><a href="follow">Follow</a></div>
+				</div>
+				<div class='photo'>
+					<ul class='clearfix'>
+						<li><a href=""><img src="images/k01.jpg" alt=""></a></li>
+						<li><a href=""><img src="images/k02.jpg" alt=""></a></li>
+						<li><a href=""><img src="images/k03.jpg" alt=""></a></li>
+						<li><a href=""><img src="images/k04.jpg" alt=""></a></li>
+						<li><a href=""><img src="images/k05.jpg" alt=""></a></li>
+						<li><a href=""><img src="images/k06.jpg" alt=""></a></li>
+						<li><a href=""><img src="images/k07.jpg" alt=""></a></li>
+						<li><a href=""><img src="images/k08.jpg" alt=""></a></li>
+						<li><a href=""><img src="images/k09.jpg" alt=""></a></li>
+					</ul>
+				</div>
+				<div class='activity'>
+					<div class="titile">ACTIVITIES</div>
+					<ul class='clearfix'>
+						<li><a href=""><i class="fa fa-link">Followed </i></a>   Garuru</li>
+						<li><a href=""><i class="fa fa-link">Replied to </i></a> Taruru</li>
+						<li><a href=""><i class="fa fa-link">Retweeted </i></a>  Tororo</li>
+						<li><a href=""><i class="fa fa-link">Retweeted </i></a>  Zoruru</li>
+						<li><a href=""><i class="fa fa-link">Favorited </i></a>  Pururu</li>
+					</ul>
+				</div>
 			</div>
-			<div class="center">
-				<div class='part-1'></div>
-				<div class='part-2'></div>
+			<div class="right floatright">
+				<div class='trend'></div>
+				<div class='follow'></div>
 			</div>
-			<div class="right">
-				<div class='part-1'></div>
-				<div class='part-2'></div>
-				<div class='part-3'></div>
-			</div>
+			
+				<div class='status'></div>
+				<div class='content'></div>
 		</div> 
 		<footer>
 		</footer>

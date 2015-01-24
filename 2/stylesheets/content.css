@@ -1,0 +1,88 @@
+.content .left,.content .right{
+	width: 20%; 
+	background-color: #1F4361;	
+	background-size: 100%;	
+	height: 100%;
+}
+
+
+.content .left .profile{
+	text-align:center;
+	width: 80%;
+	margin: 70px auto;
+	color:#E6E8EA;
+}
+
+
+.content .left .profile .avatar img{
+	width: 100px;
+	border-radius:100%;
+	margin-bottom: 5px;
+}
+
+.content .left .profile .name{
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.content .left .profile .mood{
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+.content .left .profile .link{
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.content .left .profile .link a{
+	font-size: 16px;
+	margin-bottom: 10px;
+	color:#E6E8EA;
+}
+.content .left .profile .link a:hover{
+	color: #FFDE71;	
+}
+
+.content .left .profile .follow{
+	color: #FFDE71;	
+	border-radius: 10px 10px 10px 10px;
+	border-color:#FFDE71;
+	border: 2px solid;
+	width: 50%;
+	margin: 30px auto;
+	padding: 5px;
+}
+
+.content .photo{
+	width: 85%;
+	margin: 10px auto;	
+}
+
+
+.content .photo li {
+	float: left;
+}
+
+.content .photo li img{
+	float: left;
+	width: 100px;
+	height: 100px;
+	padding: 0 1px;
+}
+
+.content .activity{
+	margin: 50px 20%;
+	color:#E6E8EA;
+}
+
+.content .activity ul{
+	margin-top: 10px;
+}
+.content .activity li{
+	margin: 10px;
+}
+
+.content{
+	background-color: #dfdfdf;
+	
+	height: 1000px;
+}
