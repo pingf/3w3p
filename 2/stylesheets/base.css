@@ -45,3 +45,6 @@ a:active { text-decoration: none; color:#FFDE71 }
 .floatright {
 	float:right;	
 }
+.floatnone {
+	float:none;	
+}

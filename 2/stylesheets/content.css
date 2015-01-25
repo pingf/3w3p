@@ -45,7 +45,6 @@
 .content .left .profile .follow{
 	color: #FFDE71;	
 	border-radius: 10px 10px 10px 10px;
-	border-color:#FFDE71;
 	border: 2px solid;
 	width: 50%;
 	margin: 30px auto;
@@ -53,7 +52,7 @@
 }
 
 .content .photo{
-	width: 85%;
+	width: 90%;
 	margin: 10px auto;	
 }
 
@@ -64,13 +63,22 @@
 
 .content .photo li img{
 	float: left;
-	width: 100px;
-	height: 100px;
-	padding: 0 1px;
+	width: 80px;
+	height: 80px;
+	padding: 2px 2px;
 }
 
+.content .photo li img:hover{
+	transition: 0.5s;
+	width: 240px;
+	height: 240px;
+	padding: 6px 6px;
+}
+
+
+
 .content .activity{
-	margin: 50px 20%;
+	margin: 50px 15%;
 	color:#E6E8EA;
 }
 
@@ -81,8 +89,122 @@
 	margin: 10px;
 }
 
+
+.content .main{
+	margin: 70px 22%;
+}
+
+.content .status{
+	color:#E6E8EA;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #336E9F;
+}
+
+.content .status ul{
+	text-align: center;
+	display: inline-block;
+	margin: 0 auto;
+	background-color: #336E9F;
+}
+.content .status li{
+	display: inline-block;
+	width: auto;
+	padding: 5px 42px;
+	text-align:center;
+	margin: 0 auto;
+}
+
+.content .status li .name{
+	font-size: 14px;
+}
+
+.content .status li .value{
+	font-size: 20px;
+	color: #FFDE71;
+}
+
+.content .status .selected{
+	color: #FFDE71;
+	border-bottom: 5px solid;
+}
+
+.content .post{
+	margin: 10px auto;
+	color:#E6E8EA;
+	background-color: #336E9F;
+	border-radius: 5px;
+}
+
+.content .post .postlist{
+	width: 100%;
+	display:inline-block;
+	border-bottom: 2px solid;
+	color: #FFDE71;
+	margin: 15px auto;
+}
+
+.content .post .postlist .avatar{
+	display: inline-block;
+	margin-left: 15px;
+}
+.content .post .postlist img{
+	width: 50px;
+	border-radius: 100%;
+}
+.content .post .postlist .message{
+	margin: 0 85px;
+	width: 88%;
+}
+.content .post .postlist .message .text{
+	color:#EEEEEE;
+}
+.content .post .postlist .message .text embed{
+	width: 100%;
+	height: 480px;	
+}
+
+.content .post .postlist .message .bar li{
+	display: inline-block;
+	width: auto;
+	padding: 5px 10px;
+	text-align:center;
+	margin: 0 auto;
+}
+
+.content .right .trend {
+	color: #E6E8EA;
+	margin: 70px auto;
+	width: 70%;
+	text-align:center;
+}
+
+
+.content .right .trend .title{
+	margin-bottom: 20px;
+}
+.content .right .follow {
+	color: #E6E8EA;
+	margin: 10px auto;
+	text-align:center;
+}
+.content .right .follow .title{
+	margin-bottom: 20px;
+}
+.content .right .follow ul{
+	margin: 0 15%;
+	text-align: center;	
+}
+
+.content .right .follow .userlist{
+	margin: 15px;
+	font-size: 14px;
+}
+.content .right .follow .userlist img{
+	width: 40px;
+}
 .content{
 	background-color: #dfdfdf;
 	
-	height: 1000px;
+	height: 2400px;
 }
