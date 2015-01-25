@@ -51,15 +51,12 @@
 	padding: 5px;
 }
 
-.content .photo{
-	width: 90%;
-	margin: 10px auto;	
+
+.content .photo ul {
+	margin: 10px 5%;	
+	text-align:center;
 }
 
-
-.content .photo li {
-	float: left;
-}
 
 .content .photo li img{
 	float: left;
