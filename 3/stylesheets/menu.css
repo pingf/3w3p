@@ -1,0 +1,54 @@
+.menu1 {
+	background: #859987;
+	width: 200px;
+	height: 1200px;
+}
+
+
+.menu1 ul {
+	margin-top: 200px;
+}
+
+.menu1 ul li {
+	font-size: 20px;
+}
+
+.menu1 ul li:nth-child(2) {
+	padding: 20px;
+	background: yellow;
+}
+
+.menu1 ul li:nth-child(4) {
+	padding: 20px;
+	background: yellow;
+}
+
+
+.menu2 {
+	background: #036564;
+	width: 200px;
+	height: 1200px;
+}
+
+.menu2 ul {
+	margin-top: 100px;
+}
+
+.menu2 ul li {
+	font-size: 20px;
+}
+
+.menu2 ul li:nth-child(2) {
+	padding: 20px;
+	background: red;
+}
+
+.menu2 ul li:nth-child(4) {
+	padding: 20px;
+	background: red;
+}
+
+
+
+
+
