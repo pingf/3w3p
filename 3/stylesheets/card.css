@@ -1,3 +1,9 @@
+
+.main {
+	padding-top: 40px;
+	padding-left: 20px;
+}
+
 .main .card {
 	top: 0px;
 	left: 0px;
@@ -10,11 +16,15 @@
 }
 
 .main .card:hover {
-	transform: scale(1.1);	
+	transform: scale(1.05);	
+	z-index: 1;
+	position: absolute;
+	
 }
 
 
 .main .card .card-top {
+	text-align:justify;
 }
 
 .main .card .card-top .content  {
@@ -52,6 +62,7 @@
 
 
 .main .card .card-bottom {
+	text-align:justify;
 	position: relative;
 	bottom: 5px;
 	transition: all 1s ease;

@@ -1,51 +1,72 @@
 .menu1 {
-	background: #859987;
-	width: 200px;
+	background: #1F2C39;
+	width: 100px;
 	height: 1200px;
 }
 
 
 .menu1 ul {
-	margin-top: 200px;
+	margin: 200px auto;
+	
 }
 
 .menu1 ul li {
 	font-size: 20px;
-}
-
-.menu1 ul li:nth-child(2) {
+	color: #428BCA;
 	padding: 20px;
-	background: yellow;
+	text-align:center;
 }
 
-.menu1 ul li:nth-child(4) {
-	padding: 20px;
-	background: yellow;
+
+.menu1 ul li:hover{
+	-webkit-animation: 500ms rainbow forwards;
+	animation: 500ms rainbow forwards;
 }
 
+@-webkit-keyframes rainbow {
+  0% { background: #00; }
+  50% { background: yellowgreen; }
+  100% { background: orange; }
+}
+
+@keyframes rainbow {
+  0% { background: #00; }
+  50% { background: orange; }
+  100% { background: yellowgreen; }
+}
 
 .menu2 {
-	background: #036564;
-	width: 200px;
+	background: white;
+	width: 300px;
 	height: 1200px;
+	border-right:#2790B0 2px solid;
 }
+
+.menu2 .category {
+	margin: 80px auto;
+	font-size: 36px;
+	text-align:center;
+	border: 2px solid;
+	border-radius: 15px;
+	width: 60%;
+}
+
 
 .menu2 ul {
 	margin-top: 100px;
+	vertical-align: middle;
 }
 
 .menu2 ul li {
+	margin: 0px auto;
+	padding: 15px;
 	font-size: 20px;
+	text-align:center;
+	border-bottom: 2px solid #DDDDDD;
 }
 
-.menu2 ul li:nth-child(2) {
-	padding: 20px;
-	background: red;
-}
-
-.menu2 ul li:nth-child(4) {
-	padding: 20px;
-	background: red;
+.menu2 ul li:hover {
+	background:#F5F5F5;
 }
 
 
